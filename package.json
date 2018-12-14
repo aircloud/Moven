@@ -1,0 +1,15 @@
+{
+  "name": "moven",
+  "version": "0.0.1",
+  "description": "User behavior track record library for browsers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./rollup/build.js"
+  },
+  "keywords": [
+    "mangosteen"
+  ],
+  "author": "iconie",
+  "license": "MIT"
+}

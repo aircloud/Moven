@@ -1,0 +1,82 @@
+{
+  "project": "2",
+  "logger": "javascript",
+  "platform": "javascript",
+  "request": {
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36"
+    },
+    "url": "http://localhost:63342/supvision/sentry-test/sentry-test1/test1.html?_ijt=1176e1nv3p3o068n85bmfthfom"
+  },
+  "exception": {
+    "values": [
+      {
+        "type": "TypeError",
+        "value": "Cannot read property 'nomethod' of undefined",
+        "stacktrace": {
+          "frames": [
+            {
+              "filename": "http://localhost:63342/supvision/sentry-test/sentry-test1/test1.html?_ijt=1176e1nv3p3o068n85bmfthfom",
+              "lineno": 33,
+              "colno": 11,
+              "function": "HTMLParagraphElement.document.getElementById.onclick",
+              "in_app": true
+            }
+          ]
+        }
+      }
+    ],
+    "mechanism": {
+      "type": "onerror",
+      "handled": false
+    }
+  },
+  "transaction": "http://localhost:63342/supvision/sentry-test/sentry-test1/test1.html?_ijt=1176e1nv3p3o068n85bmfthfom",
+  "extra": {
+    "session:duration": 3141
+  },
+  "breadcrumbs": {
+    "values": [
+      {
+        "timestamp": 1541081303.295,
+        "category": "ui.click",
+        "message": " > html.gr__localhost > body > p#p2"
+      },
+      {
+        "timestamp": 1541081303.295,
+        "message": "p2 click: [object MouseEvent]",
+        "level": "log",
+        "category": "console"
+      },
+      {
+        "timestamp": 1541081303.497,
+        "category": "ui.click",
+        "message": " > html.gr__localhost > body > p#p2"
+      },
+      {
+        "timestamp": 1541081303.498,
+        "message": "p2 click: [object MouseEvent]",
+        "level": "log",
+        "category": "console"
+      },
+      {
+        "timestamp": 1541081303.733,
+        "category": "ui.click",
+        "message": " > html.gr__localhost > body > p#p2"
+      },
+      {
+        "timestamp": 1541081303.733,
+        "message": "p2 click: [object MouseEvent]",
+        "level": "log",
+        "category": "console"
+      },
+      {
+        "timestamp": 1541081304.994,
+        "message": "click me",
+        "level": "log",
+        "category": "console"
+      }
+    ]
+  },
+  "event_id": "287429a7ae0e4fafa8fdd6c9aefa86f9"
+}
